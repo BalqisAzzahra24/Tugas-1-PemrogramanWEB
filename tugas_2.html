@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar form dan table</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <style>
+            body {
+                background-color: #f0f2f5;
+        
+            }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center align-items-center mb-4">
+                <div>
+                    <h1 class="text-center text-primary">facebook</h1>
+                </div>
+            </div>
+            <div class="row">  
+            <div class="col  ">
+                <form action="" class="bg-light p-3 rounded-3 shadow-sm">
+                    <h4 class="text-center"> create new account</h4>
+                     <p class="text-center"> It's quick and easy </p>
+                    <hr>
+                    <div class="d-flex ">
+                    <input type="text" class="form-control mt-2 me-3" placeholder="First Name"/>
+                    <input type="text" class="form-control mt-2 mb-2 me-3" placeholder="Surname"/>
+                </div>
+                <p class="mt-2">date of birth</p>
+                <div class="d-flex">
+                    <select class="form-control mt-2 me-3">
+                        <option value="">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+    
+                    </select>
+
+                    <select class="form-control mt-2 me-3">
+                        <option value="">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                    </select>
+
+                    <select class="form-control mt-2 ">
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                    </select>
+                </div>
+                <div class="col d-flex mt-2 mb-2 me-3">
+                    <input type="radio" name="gender" value="male" id="male" class="">
+                    <label for="male" class="ms-2">Male</label>
+                    <input type="radio" name="gender" value="female" id="female" class="mt-2 ms-3">
+                    <label for="female" class="ms-2">Female</label>
+                    <input type="radio" name="gender" value="custom" id="custom" class="mt-2 ms-3">
+                    <label for="custom" class="ms-2">Custom</label>
+                </div>
+                <div class="col mt-2">
+                     <input type="email" class="form-control mt-4" placeholder="email address"/>
+                </div>
+                <div class="col  mt-3">
+                     <input type="password" class="form-control mt-2" placeholder="new password"/>
+                </div>
+                <p class=" text-secondary mt-3" >People who use our service may have uploaded your contact information to Facebook. <span class="text-primary">Learn more.</span></p>
+
+                <p class="text-secondary">By clicking Sign Up, you agree to our <span class="text-primary">Terms, Privacy Policy</span> and <span class="text-primary">Cookies Policy. </span>You may receive SMS notifications from us and can opt out at any time.</p>
+                 <button class=" btn btn-success  w-100  ">Sign up</button>
+                 <h6 class="text-center text-primary mt-3">Already have an account?</h6>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
